@@ -9,8 +9,8 @@ public class Main {
         Conta ccMaria = new ContaCorrente(new Cliente("maria"));
 
 
-        ccEsdras.depositar(100);
-        ccEsdras.transferir(50, cpLaura);
+        ccEsdras.depositar(100.55);
+        ccEsdras.transferir(50.42, cpLaura);
 
         ccEsdras.imprimirExtrato();
         cpLaura.imprimirExtrato();
